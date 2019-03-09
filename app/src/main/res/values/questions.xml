@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="head">
+        <item>Is your neck painful since a special move?</item>
+        <item>Is your neck colored?</item>
+        <item>Did you fall on your head?</item>
+        <item>Have you ever broken your neck?</item>
+        <item>Do you feel pain when your try to move your neck?</item>
+        <item>Do you feel pain even without moving your neck?</item>
+    </string-array>
+
+    <string-array name="shoulder">
+        <item>Is your shoulder bigger than usual?</item>
+        <item>Is your shoulder colored?</item>
+        <item>Did you fall on your shoulder?</item>
+        <item>Have you ever dislocated your shoulder?</item>
+        <item>Have you ever broken your shoulder?</item>
+        <item>Do you feel pain when your try to move your shoulder?</item>
+        <item>Do you feel pain even without moving your shoulder?</item>
+    </string-array>
+
+    <string-array name="elbow">
+        <item>Is your elbow bigger than usual?</item>
+        <item>Is your elbow colored?</item>
+        <item>Did you fall on your elbow?</item>
+        <item>Have you ever sprained your elbow?</item>
+        <item>Have you ever broken your elbow?</item>
+        <item>Do you feel pain when your try to move your elbow?</item>
+        <item>Do you feel pain even without moving your elbow?</item>
+    </string-array>
+
+    <string-array name="wrist">
+        <item>Is your wrist bigger than usual?</item>
+        <item>Is your wrist colored?</item>
+        <item>Did you fall on your wrist?</item>
+        <item>Have you ever sprained your wrist?</item>
+        <item>Have you ever broken your wrist?</item>
+        <item>Do you feel pain when your try to move your wrist?</item>
+        <item>Do you feel pain even without moving your wrist?</item>
+    </string-array>
+
+    <string-array name="hand">
+        <item>Is your finger bigger than usual?</item>
+        <item>Is your finger colored?</item>
+        <item>Did you fall on your finger?</item>
+        <item>Have you ever sprained your finger?</item>
+        <item>Have you ever broken your finger?</item>
+        <item>Do you feel pain when your try to move your finger?</item>
+        <item>Do you feel pain even without moving your finger?</item>
+    </string-array>
+
+    <string-array name="knee">
+        <item>Is your knee bigger than usual?</item>
+        <item>Is your knee colored?</item>
+        <item>Did you fall on your knee?</item>
+        <item>Have you ever sprained your knee?</item>
+        <item>Have you ever broken your knee?</item>
+        <item>Do you feel pain when your try to move your knee?</item>
+        <item>Do you feel pain even without moving your knee?</item>
+    </string-array>
+
+    <string-array name="feet">
+        <item>Is your ankle bigger than usual?</item>
+        <item>Is your ankle colored?</item>
+        <item>Did you fall on your ankle?</item>
+        <item>Have you ever sprained your ankle?</item>
+        <item>Have you ever broken your ankle?</item>
+        <item>Do you feel pain when your try to move your ankle?</item>
+        <item>Do you feel pain even without moving your ankle?</item>
+    </string-array>
+
+    <string-array name="not_implemented">
+        <item>This function has not yet been implemented</item>
+    </string-array>
+</resources>

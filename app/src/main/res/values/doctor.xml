@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="price">
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+        <item>$$$$$</item>
+        <item>$$$$$$</item>
+    </string-array>
+    <string-array name="sponsored">
+        <item></item>
+        <item>Sponsored</item>
+    </string-array>
+</resources>

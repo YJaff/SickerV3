@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvSicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="casual"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageHead"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSicker"
+        app:srcCompat="@drawable/head"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+
+    <ImageView
+        android:id="@+id/imageShoulder"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHead"
+        app:srcCompat="@drawable/shoulder"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+
+    <ImageView
+        android:id="@+id/imageElbows"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageShoulder"
+        app:srcCompat="@drawable/elbows"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/imageWrist"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageElbows"
+        app:srcCompat="@drawable/wrist"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/imageHands"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageWrist"
+        app:srcCompat="@drawable/hands"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/imageKnee"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHands"
+        app:srcCompat="@drawable/knee"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+
+
+    <ImageView
+        android:id="@+id/imageFeet"
+        android:layout_width="@dimen/widthImagesBody"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageKnee"
+        app:srcCompat="@drawable/feet"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:onClick="onClick"/>
+</android.support.constraint.ConstraintLayout>

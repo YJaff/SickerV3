@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sicker</string>
+    <string name="finalResult">This physician pays $300 every month to be part of our sponsored doctors.
+        He is bad, but you chose well. We make money on your health.</string>
+
+    <string name="knee">knee</string>
+    <string name="shoulder">shoulder</string>
+    <string name="elbow">elbow</string>
+    <string name="hand">finger</string>
+    <string name="feet">toe</string>
+    <string name="head">knee</string>
+</resources>
